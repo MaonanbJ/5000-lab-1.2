@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Suspendisse sed elementum lacus, in congue erat. Aenean metus ex, posuere eget varius id, rutrum sed felis. Pellentesque laoreet ipsum in orci tincidunt\n\n\nDonec eu tristique velit, in vulputate ligula. Morbi a orci id sem facilisis convallis. Donec volutpat lobortis ultrices. Mauris imperdiet tincidunt dignissim.\n\n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur sem augue, hendrerit et gravida ut, pretium vitae dui.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ny = np.random.randn(1000).cumsum()\nx = np.arange(len(y))\n\nplt.plot(x, y) \nplt.xlabel('sample') \nplt.ylabel('mean') \nplt.show()"
+  },
+  {
+    "objectID": "about.html#sencond-level",
+    "href": "about.html#sencond-level",
+    "title": "About",
+    "section": "",
+    "text": "Donec eu tristique velit, in vulputate ligula. Morbi a orci id sem facilisis convallis. Donec volutpat lobortis ultrices. Mauris imperdiet tincidunt dignissim.\n\n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur sem augue, hendrerit et gravida ut, pretium vitae dui.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ny = np.random.randn(1000).cumsum()\nx = np.arange(len(y))\n\nplt.plot(x, y) \nplt.xlabel('sample') \nplt.ylabel('mean') \nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Curabitur placerat, lacus in faucibus tempus, lorem mauris elementum libero, ac gravida mauris neque vel mauris. Nulla consectetur maximus elit, quis imperdiet est vulputate nec. Sed sodales bibendum orci sed aliquet. Aenean egestas nunc nec purus facilisis, nec pulvinar nisl consectetur. Cras nunc sapien, consequat a malesuada eget, dapibus vel massa. Cras et fermentum felis, tempus fringilla urna. Sed non feugiat quam, vel tempus diam.(use the ipsum lorem)"
+  },
+  {
+    "objectID": "index.html#a.-markdown-table",
+    "href": "index.html#a.-markdown-table",
+    "title": "simple_quarto_website",
+    "section": "a. markdown table",
+    "text": "a. markdown table\n    | Jansena | Jansenb |\n    | 1111111 | 2222222 |\n    | first   | second  |"
+  },
+  {
+    "objectID": "index.html#b.formatted-text-in-two-cloumns",
+    "href": "index.html#b.formatted-text-in-two-cloumns",
+    "title": "simple_quarto_website",
+    "section": "b.formatted text in two cloumns:",
+    "text": "b.formatted text in two cloumns:\n\n\nGeorgetown is a good school\n\nlocated in Washington.D.C"
+  },
+  {
+    "objectID": "index.html#c.bulleted-list",
+    "href": "index.html#c.bulleted-list",
+    "title": "simple_quarto_website",
+    "section": "c.bulleted list",
+    "text": "c.bulleted list\n\nName\nAge\nGender"
+  },
+  {
+    "objectID": "index.html#d.one-inline-math-latex-equation",
+    "href": "index.html#d.one-inline-math-latex-equation",
+    "title": "simple_quarto_website",
+    "section": "d.one inline-math LaTex equation",
+    "text": "d.one inline-math LaTex equation\n\\((x-y)^2 = x^2-2xy+y^2\\)"
+  },
+  {
+    "objectID": "index.html#e.one-non-inline-math-latex-equation",
+    "href": "index.html#e.one-non-inline-math-latex-equation",
+    "title": "simple_quarto_website",
+    "section": "e.one non-inline-math LaTex equation",
+    "text": "e.one non-inline-math LaTex equation\n\\[(x+y)^2 = x^2+2xy+y^2\\]"
+  },
+  {
+    "objectID": "index.html#f.a-footnote1.",
+    "href": "index.html#f.a-footnote1.",
+    "title": "simple_quarto_website",
+    "section": "f.a footnote[^1].",
+    "text": "f.a footnote[^1]."
+  },
+  {
+    "objectID": "index.html#g.a-quote",
+    "href": "index.html#g.a-quote",
+    "title": "simple_quarto_website",
+    "section": "g.a quote",
+    "text": "g.a quote\n\nhere to quote something!!!"
+  },
+  {
+    "objectID": "index.html#h.two-embedded-images",
+    "href": "index.html#h.two-embedded-images",
+    "title": "simple_quarto_website",
+    "section": "h.two embedded images",
+    "text": "h.two embedded images"
+  },
+  {
+    "objectID": "index.html#i.a-embedded-video",
+    "href": "index.html#i.a-embedded-video",
+    "title": "simple_quarto_website",
+    "section": "i.a embedded video:",
+    "text": "i.a embedded video:"
+  },
+  {
+    "objectID": "index.html#j.mermaid-diagram",
+    "href": "index.html#j.mermaid-diagram",
+    "title": "simple_quarto_website",
+    "section": "j.Mermaid diagram",
+    "text": "j.Mermaid diagram\n\n\n\n\nflowchart LR\n  A[China] --&gt; B(America)\n  B --&gt; C{Decision}\n  C --&gt; D[Washington D.C]\n  C --&gt; E[Virginia]"
+  },
+  {
+    "objectID": "index.html#k.cite",
+    "href": "index.html#k.cite",
+    "title": "simple_quarto_website",
+    "section": "k.cite",
+    "text": "k.cite\n(Ko et al. 2022)"
+  },
+  {
+    "objectID": "slides/slides.html#cite",
+    "href": "slides/slides.html#cite",
+    "title": "Habits",
+    "section": "cite",
+    "text": "cite\n(Ko et al. 2022)"
+  },
+  {
+    "objectID": "slides/slides.html#picture1",
+    "href": "slides/slides.html#picture1",
+    "title": "Habits",
+    "section": "picture1",
+    "text": "picture1\n\npicture1"
+  },
+  {
+    "objectID": "slides/slides.html#picture2",
+    "href": "slides/slides.html#picture2",
+    "title": "Habits",
+    "section": "picture2",
+    "text": "picture2\n\npicture2"
+  },
+  {
+    "objectID": "slides/slides.html#picture3",
+    "href": "slides/slides.html#picture3",
+    "title": "Habits",
+    "section": "picture3",
+    "text": "picture3\n\n\nShow the code\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ny = np.random.randn(1000).cumsum()\nx = np.arange(len(y))\n\nplt.plot(x, y) \nplt.xlabel('sample') \nplt.ylabel('mean') \nplt.show()\n\n\n\n\n\n\n\n\n\nKo, Hyeyoung, Suyeon Lee, Yoonseo Park, and Anna Choi. 2022. “A Survey of Recommendation Systems: Recommendation Models, Techniques, and Application Fields.” Electronics 11 (1): 141."
+  }
+]

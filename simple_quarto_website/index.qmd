@@ -1,0 +1,60 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+
+# 1.This is the first chapter to view
+Curabitur placerat, lacus in faucibus tempus, lorem mauris elementum libero, ac gravida mauris neque vel mauris. Nulla consectetur maximus elit, quis imperdiet est vulputate nec. Sed sodales bibendum orci sed aliquet. Aenean egestas nunc nec purus facilisis, nec pulvinar nisl consectetur. Cras nunc sapien, consequat a malesuada eget, dapibus vel massa. Cras et fermentum felis, tempus fringilla urna. Sed non feugiat quam, vel tempus diam.(use the ipsum lorem)
+
+# 2.This is the second chapter to view
+## a. markdown table
+        | Jansena | Jansenb |
+        | 1111111 | 2222222 |
+        | first   | second  |
+
+## b.formatted text in two cloumns:
+::: {.columns}
+::: {.column width="50%"}
+Georgetown is a good school
+:::
+::: {.column width="50%"}
+located in Washington.D.C
+:::
+:::
+
+## c.bulleted list
+- Name
+- Age
+- Gender
+
+## d.one inline-math LaTex equation
+$(x-y)^2 = x^2-2xy+y^2$
+
+## e.one non-inline-math LaTex equation
+$$(x+y)^2 = x^2+2xy+y^2$$
+
+## f.a footnote[^1].
+
+## g.a quote
+>here to quote something!!!
+
+## h.two embedded images
+![A professional picture](images/example1.png)
+![A professional picture](images/example2.png)
+
+## i.a embedded video:
+{{< video "https://www.youtube.com/watch?v=zOjov-2OZ0E" >}} 
+
+## j.Mermaid diagram
+```{mermaid}
+flowchart LR
+  A[China] --> B(America)
+  B --> C{Decision}
+  C --> D[Washington D.C]
+  C --> E[Virginia]
+```
+
+## k.cite
+[@ko2022survey]
+
+
